@@ -1,0 +1,16 @@
+{
+    "name": "alpipego/resizefly-addon-template",
+    "description": "Use this template to create a new add-on for ResizeFly",
+    "license": "MIT",
+    "type": "wordpress-plugin",
+    "autoload": {
+        "psr-4": {
+            "Alpipego\\Resizefly\\AddonTemplate\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.5",
+        "composer/installers": "~1.0",
+        "alpipego/resizefly": "*"
+    }
+}
