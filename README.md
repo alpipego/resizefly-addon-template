@@ -5,7 +5,7 @@ Use this template to register add-ons for the ResizeFly plugin.
 * Via Composer:<br> 
 Create a new project with
 ```bash
-composer create-project alpipego/resizefly-addon-template  --no-install --remove-vcs
+composer create-project alpipego/resizefly-addon-template:dev-master  --no-install --remove-vcs YOUR_ADDON_NAME
 ```
 
 * Manually:<br>
