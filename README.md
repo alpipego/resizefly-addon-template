@@ -25,8 +25,6 @@ Update the plugin header, check https://codex.wordpress.org/File_Header#Plugin_F
 Update the `name`, `nicename`, `version` and `min_version` to correctly register your add-on in the parent plugin. Take extra care not to use the `name` of another installed add-on, as this would override it.
 
 ```php
-<?php
-
 $addon = [
     'name'        => 'addon_template', // short name, only lowercase letters and underscores
     'nicename'    => 'Add-on Template', // Nice name, for use in UI
